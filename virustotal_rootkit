@@ -1,0 +1,102 @@
+
+MD5 hash:            9219e2cfcc64ccde2d8de507538b9991
+SHA1 hash:           181e59600d057dc6b31a3b19d7f4f75301a3425e
+SHA256 hash:         5af3fd53aea5e008d8725c720ea0290e2e0cd485d8a953053ccf02e5e81a94a0
+
+Malicious:           63
+Undetected:          8
+
+Type Description:    Win32 EXE
+Size:                76288
+Last Analysis Date:  2024-02-16 05:46:55
+Type Tag:            peexe
+Times Submitted:     294
+
+Threat Label:        trojan.barys/blakken
+Classification: 
+                     popular count: 28
+                     label:         trojan
+
+Trid: 
+                     file_type:     Win16 NE executable (generic)
+                     probability:   32.2
+
+                     file_type:     Win32 Executable (generic)
+                     probability:   28.8
+
+                     file_type:     OS/2 Executable (generic)
+                     probability:   13.0
+
+                     file_type:     Generic Win/DOS Executable
+                     probability:   12.8
+
+                     file_type:     DOS Executable Generic
+                     probability:   12.8
+
+Names: 
+                     rootkit.ex1 
+                     notepad.exe 
+                     rootkit.exe 
+                     trogan07 
+                     rootkit.ex1.exe 
+                     00000000.exe 
+                     rootkit.ex1x 
+                     black-energy.exe 
+                     BlackEnergy2.1.exe 
+                     rootkit[1].ex1 
+                     5af3fd53aea5e008d8725c720ea0290e2e0cd485d8a953053ccf02e5e81a94a0 
+                     493.json 
+                     5af3fd53aea5e008d8725c720ea0290e2e0cd485d8a953053ccf02e5e81a94a0.ex1 
+                     blackenergy1.ex1 
+                     output.149792226.txt 
+                     9219e2cfcc64ccde2d8de507538b9991_rootkit.ex1 
+                     9219e2cfcc64ccde2d8de507538b9991.ex1 
+                     intercapillaryg6WzOIq.ex1 
+                     1064-rootkit.ex1 
+                     Malware 18.exe 
+                     5af3fd53aea5e008d8725c720ea0290e2e0cd485d8a953053ccf02e5e81a94a0 (1).bin 
+                     localfile~ 
+                     ta23tj2kd.exe 
+                     porno_foto.exe 
+                     vt-upload-_ke2n 
+                     vt-upload-Fp0Pl 
+                     vt-upload-ksJqx 
+                     test.txt 
+                     BlackEnergy2.exe 
+                     BlackEnergy2.ex# 
+                     1.ex 
+                     rootkit.ex 
+                     porno_foto 
+                     9219E2CFCC64CCDE2D8DE507538B9991 
+                     BlackEnergy2.ex1 
+
+PE Info: 
+                     Imphash:       68b959f526f1bb79907383ec0f4e13e7
+                     Libraries:     
+                                    KERNEL32.DLL
+                                    GDI32.DLL
+                                    USER32.DLL
+                     Sections: 
+
+                                    section_name: .dKVU 
+                                    virtual_size: 68559 
+                                    entropy:      7.99 
+                                    flags:        rw 
+
+                                    section_name: .cPBG 
+                                    virtual_size: 1731 
+                                    entropy:      5.84 
+                                    flags:        rwx 
+
+                                    section_name: .aFUR 
+                                    virtual_size: 3034 
+                                    entropy:      5.99 
+                                    flags:        rwx 
+
+                                    section_name: .rOPG 
+                                    virtual_size: 1144 
+                                    entropy:      3.76 
+                                    flags:        r 
+
+Overlay:             NO
+

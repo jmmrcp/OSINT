@@ -1,0 +1,91 @@
+%%%%%%%%%%%%%%%%%%%%%%%%
+\section{BlackEnergy} \label{section: BlackEnergy}
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+El origen de \textbf{BlackEnergy} se remonta a 2007, pero su notoriedad llegó en 2015 con ataques a estaciones eléctricas en Ucrania, marcando solo el comienzo de su desarrollo constante y su capacidad para adaptarse. Este troyano modular, utilizado por grupos como \textbf{Sandworm}, ha dejado una huella significativa en la ciberseguridad global.
+%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Contexto Inicial}
+%%%%%%%%%%%%%%%%%%%%%%%%
+El primer brote en 2015, dirigido a estaciones eléctricas ucranianas, puso de manifiesto la versatilidad del malware, que no se limitó a ese sector. Se detectaron rastros en el aeropuerto de Kiev, cadenas de televisión y medios de comunicación, así como en Polonia, Bruselas y Bélgica.
+%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Vectores de Ataque y Vulnerabilidades}
+%%%%%%%%%%%%%%%%%%%%%%%%
+El phishing fue el vector de ataque inicial, aprovechando las vulnerabilidades de productos Microsoft Office, como PowerPoint, Word (CVE-2014-17614) y Excel (CVE-2022-227165). Estos permitían la ejecución de scripts mediante macros, facilitando la infiltración.
+%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Fases de Evolución}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+    \item BlackEnergy (2007): Descubierto por Arbor Networks, este troyano creaba botnets y realizaba ataques DDoS, ofreciendo una interfaz gráfica para el control de dispositivos infectados.
+    \item BlackEnergy2 (2010): Introdujo rootkits para un acceso imperceptible, facilitando el robo de credenciales en ataques a bancos ucranianos y rusos.
+    \item BlackEnergy Lite (2014): Variantes más ligeras que limitaban el kernel y dificultaban los ataques, especialmente tras la desactivación de macros en Microsoft Office.
+    \item BlackEnergy3 (2015): Marcó un hito con KillDisk, un componente que podía eliminar toda la información del disco duro, utilizado en el ataque a estaciones eléctricas ucranianas.
+    \item GreyEnergy (2018): Se enfocó en espionaje y reconocimiento, mostrando actividad desde 2015. Utiliza técnicas avanzadas, como cifrado AES-256, para ataques de phishing centrados en la furtividad.
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\section{BlackEnergy: Un Troyano Persistente y Versátil}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Introducción}
+%%%%%%%%%%%%%%%%%%%%%%%%
+Desde su aparición en 2007, BlackEnergy ha destacado como un troyano modular de propósito múltiple. Su presencia se ha evidenciado en una amplia variedad de ataques, desde denegación de servicio (DDoS) hasta operaciones de ciberespionaje y ataques destructivos dirigidos a infraestructuras críticas.
+%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Características Principales}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+    \item \textbf{Modularidad}: BlackEnergy se compone de diversos módulos, adaptables y flexibles según las necesidades del atacante, proporcionando una alta capacidad de ajuste.
+    
+    \item \textbf{Persistencia}: Su instalación profunda en el sistema operativo dificulta su eliminación, asegurando una presencia duradera.
+    
+    \item \textbf{Robo de Información}: BlackEnergy es capaz de extraer una amplia gama de información sensible, incluyendo credenciales, datos financieros y propiedad intelectual.
+    
+    \item \textbf{Control Remoto}: Ofrece a los atacantes la capacidad de tomar control remoto de los sistemas infectados.
+    
+    \item \textbf{Ataques DDoS}: Utilizable para lanzar ataques DDoS a gran escala contra sitios web y servidores.
+    
+    \item \textbf{Ataques Destructivos}: BlackEnergy puede emplearse para eliminar datos y causar daños en sistemas críticos.
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Ataques Notables}
+%%%%%%%%%%%%%%%%%%%%%%%%
+2014: Se utilizó para atacar la red eléctrica de Ucrania, resultando en un corte de energía masivo.
+2015: Involucrado en el ataque a los sistemas de control industrial de una planta de tratamiento de agua en Illinois.
+2016: Utilizado en el ataque a los sistemas de información del Partido Demócrata de Estados Unidos.
+%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusión}
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+El malware analizado es un archivo ejecutable Win32 EXE con un tamaño de 76,288 bytes, identificado mediante varios hashes (MD5, SHA1, SHA256). Fue analizado por última vez el 16 de febrero de 2024, con 63 detecciones maliciosas y 8 no detectadas entre 294 análisis. El malware está etiquetado como \textbf{trojan.barys/blakken}, siendo considerado popular en 28 detecciones.
+
+El análisis Trid revela múltiples probabilidades de tipos de archivos, incluyendo ejecutables Win16, Win32. Los nombres de archivo varían, incluyendo "rootkit.ex1", "notepad.exe", y otros, con algunas referencias a BlackEnergy, un malware conocido. El malware utiliza bibliotecas del sistema como KERNEL32.DLL, GDI32.DLL, y USER32.DLL, y tiene varias secciones con tamaños, entropías y permisos específicos.
+
+El Imphash asociado es 68b959f526f1bb79907383ec0f4e13e7, y no tiene overlay, indicando una eficiente gestión del espacio en disco. En resumen, este malware posee características evasivas y diversidad en su identificación, presentando una amenaza significativa.
+%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Identificación única del malware:}
+%%%%%%%%%%%%%%%%%%%%%%%%
+Se proporcionan varios hash (MD5, SHA1, SHA256) que permiten la identificación única del malware, facilitando la compartición y búsqueda precisa de información relacionada.
+\subsubsection{Atributos maliciosos y Detección:}
+
+El archivo tiene 63 detecciones maliciosas, y 8 no lo detectan. La clasificación como trojan.barys/blakken sugiere un troyano con un alto recuento de 28 detecciones populares, indicando una amenaza significativa.
+%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Características del Archivo:}
+%%%%%%%%%%%%%%%%%%%%%%%%
+El archivo es de tipo Win32 EXE con un tamaño de 76288 bytes. Su tamaño relativamente pequeño sugiere eficiencia en la distribución y ejecución rápida.
+%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Análisis Trid y Diversidad de Tipos de Archivos:}
+%%%%%%%%%%%%%%%%%%%%%%%%
+El análisis Trid muestra varias probabilidades de tipos de archivos, indicando que el malware es versátil y puede adaptarse a diferentes sistemas.
+%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Nombres de Archivo y Indicadores de Compromiso:}
+%%%%%%%%%%%%%%%%%%%%%%%%
+El malware utiliza una variedad de nombres de archivo, incluyendo "rootkit.ex1" y "notepad.exe". Además, la presencia de nombres relacionados con BlackEnergy sugiere posibles conexiones con amenazas conocidas.
+%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Información PE y Bibliotecas Utilizadas:}
+%%%%%%%%%%%%%%%%%%%%%%%%
+El malware utiliza bibliotecas del sistema como KERNEL32.DLL, GDI32.DLL y USER32.DLL, lo que indica la capacidad de interactuar con funciones fundamentales del sistema operativo.
+%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Secciones del Archivo y Ausencia de Overlay:}
+%%%%%%%%%%%%%%%%%%%%%%%%
+El archivo tiene varias secciones con diferentes tamaños y niveles de entropía. La ausencia de un overlay sugiere una eficiente gestión del espacio en disco y la falta de información adicional al final del archivo.
+\newline
+En conjunto, el malware analizado presenta características que indican una amenaza significativa y una capacidad para adaptarse a diferentes entornos. La diversidad en los nombres de archivos y la conexión potencial con amenazas conocidas resaltan la importancia de la vigilancia y respuesta rápida ante posibles incidentes de seguridad.
+
+BlackEnergy representa una amenaza compleja y peligrosa que ha sido protagonista en diversos ataques de alto perfil. Para defenderse de este malware, las organizaciones deben implementar medidas de seguridad sólidas y mantener sus sistemas actualizados. La flexibilidad y persistencia de BlackEnergy requieren una respuesta proactiva para mitigar su impacto y proteger la integridad de los sistemas.
